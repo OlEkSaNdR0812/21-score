@@ -1,0 +1,56 @@
+body {
+    margin-top: 10vh;
+    padding: 0%;
+	 background-color: #FFFAFA;
+}
+.generate {
+    background-color: #FFD700;
+    padding: 25px 50px;
+    border-radius: 20px;
+    font-size: large;
+    color: black;
+    margin: 10px;
+    align-self: center;
+}
+.title {
+    font-size: larger;
+}
+.nickname {
+    margin: 15px;
+    font-size: 60px;
+}
+.score {
+    background-color: cyan;
+    border-radius: 10px;
+	border: solid #e99;
+    padding: 10px 50px;
+    margin: 10px;
+	font-size: large;
+	 
+}
+.card {
+    margin-bottom: 15px;
+	background-image:url(img/back.png);
+	background-size: cover;
+	width:170px;
+	height:245px;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+@media (max-width: 580px) {
+    .flex-container {
+        flex-direction: column;
+      }
+}
